@@ -1,0 +1,35 @@
+{
+  "name": "cognitus/richfilemanager",
+  "description": "To add RichFilemanager to Laravel 5.*",
+  "homepage": "https://github.com/cognitus/RichFilemanager/",
+  "license": "MIT",
+       
+  "authors": [
+    {
+       "name":"Tomás Flores",
+       "email":"cognitus@outlook.com",
+       "homepage":"http://www.niucode.cl",
+       "role": "Developer"
+    },
+    {
+       "name":"Simon Georget",
+       "email":"simon@linea21.com",
+       "homepage":"http://www.empreinte-urbaine.eu",
+       "role": "Developer"
+    },
+    {
+      "name": "Bestmomo",
+      "email": "grandheretique@free.fr",
+      "homepage":"http://laravel.sillo.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cognitus\\Richfilemanager\\": "src/"
+    }
+  }
+}
+
